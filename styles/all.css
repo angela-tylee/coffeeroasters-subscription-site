@@ -1,0 +1,10 @@
+@import "./css-reset.css";
+
+@import "./variables.css";
+
+@import "./layout/header.css";
+@import "./layout/footer.css";
+
+@import "./pages/index.css";
+@import "./pages/about.css";
+@import "./pages/plan.css";

@@ -1,5 +1,6 @@
-import {defineConfig} from "vite";
-import {ViteEjsPlugin} from "vite-plugin-ejs";
+import { resolve } from 'path'
+import { defineConfig } from "vite";
+import { ViteEjsPlugin } from "vite-plugin-ejs";
 
 export default defineConfig({
   plugins: [
@@ -22,4 +23,13 @@ export default defineConfig({
       }
     }),
   ],
+  // build: {
+  //   rollupOptions: {
+  //     input: {
+  //       main: resolve(__dirname, 'index.html'),
+  //       about: resolve(__dirname, 'pages/about.html'),
+  //       plan: resolve(__dirname, 'pages/plan.html'),
+  //     },
+  //   },
+  // },
 });

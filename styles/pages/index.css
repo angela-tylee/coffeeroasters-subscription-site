@@ -1,0 +1,33 @@
+body {
+  background-color: var(--light-cream);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url('../../assets/home/desktop/image-hero-coffeepress.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.create-plan-btn {
+  background-color: var(--dark-cyan);
+  color: white;
+  padding: 15px 31px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

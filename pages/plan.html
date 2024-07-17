@@ -3,12 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
+<link rel="stylesheet" href="../layout/header.ejs">
   <title>Frontend Mentor | Coffeeroasters subscription site</title>
 </head>
 
 <body>
-  <%- include('./src/layout/header.ejs'); -%>
+  <%- include('./layout/header.ejs'); -%>
   <main class="container">
     <section>
       <h1>Create a plan</h1>
@@ -143,7 +143,9 @@
     <!-- End modal -->
   </main>
 
-  <%- include('./src/layout/footer.ejs'); -%>
+  <%- include('./layout/footer.ejs'); -%>
+  <script type="module" src="../main.js"></script>
+  
 </body>
 
 </html>

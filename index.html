@@ -9,15 +9,15 @@
 </head>
 
 <body>
-  <%- include('./src/layout/header.ejs'); -%>
+  <%- include('./layout/header.ejs'); -%>
     <main class="container">
-      <section>
+      <section class="hero">
         <h1>Great coffee made simple.</h1>
         <p>
           Start your mornings with the world’s best coffees. Try our expertly curated artisan
           coffees from our best roasters delivered directly to your door, at your schedule.
         </p>
-        <button type="button">Create your plan</button>
+        <button type="button" class="create-plan-btn">Create your plan</button>
       </section>
       <section>
         Our collection
@@ -90,8 +90,8 @@
         <button type="button">Create your plan</button>
       </section>
     </main>
-    <%- include('./src/layout/footer.ejs'); -%>
-    <script type="module" src="/main.js"></script>
+    <%- include('./layout/footer.ejs'); -%>
+    <script type="module" src="./main.js"></script>
 </body>
 
 </html>
