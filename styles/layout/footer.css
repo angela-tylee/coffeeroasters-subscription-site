@@ -1,0 +1,16 @@
+.footer-content, 
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+footer {
+  padding-block: 47px;
+  background-color: var(--dark-grey-blue);
+}
+
+footer .logo path:first-of-type {
+  fill: #FFFFFF;
+}

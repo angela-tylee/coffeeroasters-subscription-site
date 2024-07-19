@@ -11,83 +11,114 @@
 <body>
   <%- include('./layout/header.ejs'); -%>
     <main class="container">
-      <section class="hero">
-        <h1>Great coffee made simple.</h1>
-        <p>
-          Start your mornings with the world’s best coffees. Try our expertly curated artisan
-          coffees from our best roasters delivered directly to your door, at your schedule.
-        </p>
+      <section class="section-hero" style="background-image: url('./assets/home/desktop/image-hero-coffeepress.jpg');">
+        <div class="section-hero-text content">
+          <h1>Great coffee made simple.</h1>
+          <p>
+            Start your mornings with the world’s best coffees. Try our expertly curated artisan
+            coffees from our best roasters delivered directly to your door, at your schedule.
+          </p>
+          <button type="button" class="create-plan-btn">Create your plan</button>
+        </div>
+      </section>
+      <section class="section-collection content">
+        <div class="collection-card">
+          <figure class="section-collection-img"><img src="./assets/home/desktop/image-gran-espresso.png" alt="image-gran-espresso"></figure>
+          <div>
+            <h4>Gran Espresso</h4>
+            <p>Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+          </div>
+        </div>
+        <div class="collection-card">
+          <figure class="section-collection-img"><img src="./assets/home/desktop/image-planalto.png" alt="image-planalto"></figure>
+          <div>
+            <h4>Planalto</h4>
+            <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+          </div>
+        </div>
+        <div class="collection-card">
+          <figure class="section-collection-img"><img src="./assets/home/desktop/image-piccollo.png" alt="image-piccollo"></figure>
+          <div>
+            <h4>Piccollo</h4>
+            <p>Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+          </div>
+        </div>
+        <div class="collection-card">
+          <figure class="section-collection-img"><img src="./assets/home/desktop/image-danche.png" alt="image-danche"></figure>
+          <div>
+            <h4>Danche</h4>
+            <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-intro">
+        <div class="section-intro-heading">
+          <div class="section-intro-heading-text">
+            <h2>Why choose us?</h2>
+            <p>
+              A large part of our role is choosing which particular coffees will be featured
+              in our range. This means working closely with the best coffee growers to give
+              you a more impactful experience on every level.
+            </p>
+          </div>
+        </div>
+        <div class="section-intro-cards content">
+          <div class="intro-card">
+            <figure><img src="./assets/home/desktop/icon-coffee-bean.svg" alt="icon-coffee-bean"></figure>
+            <div>
+              <h4>Best quality</h4>
+              <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+            </div>
+          </div>
+          <div class="intro-card">
+            <figure><img src="./assets/home/desktop/icon-gift.svg" alt="icon-gift"></figure>
+            <div>
+              <h4>Exclusive benefits</h4>
+              <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+            </div>
+          </div>
+          <div class="intro-card">
+            <figure><img src="./assets/home/desktop/icon-truck.svg" alt="icon-truck"></figure>
+            <div>
+              <h4>Free shipping</h4>
+              <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-buyer-flow content">
+        <h4>How it works</h4>
+        <div class="section-buyer-flow-steps">
+          <div class="step">
+            <div class="step-circle step-circle-1"></div>
+            <span>01</span>
+            <h3>Pick your coffee</h3>
+            <p>
+              Select from our evolving range of artisan coffees. Our beans are ethically
+              sourced and we pay fair prices for them. There are new coffees in all profiles
+              every month for you to try out.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-circle step-circle-2"></div>
+            <span>02</span>
+            <h3>Choose the frequency</h3>
+            <p>
+              Customize your order frequency, quantity, even your roast style and grind type.
+              Pause, skip or cancel your subscription with no commitment through our online portal.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-circle step-circle-3"></div>
+            <span>03</span>
+            <h3>Receive and enjoy!</h3>
+            <p>
+              We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
+              world-class coffees curated to provide a distinct tasting experience.
+            </p>
+          </div>
+        </div>
         <button type="button" class="create-plan-btn">Create your plan</button>
-      </section>
-      <section>
-        Our collection
-        <div>
-          <h3>Gran Espresso</h3>
-          <p>Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
-        </div>
-        <div>
-          <h3>Planalto</h3>
-          <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
-        </div>
-        <div>
-          <h3>Piccollo</h3>
-          <p>Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
-        </div>
-        <div>
-          <h3>Danche</h3>
-          <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2>Why choose us?</h2>
-          <p>
-            A large part of our role is choosing which particular coffees will be featured
-            in our range. This means working closely with the best coffee growers to give
-            you a more impactful experience on every level.
-          </p>
-        </div>
-        <div>
-          <h3>Best quality</h3>
-          <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
-        </div>
-        <div>
-          <h3>Exclusive benefits</h3>
-          <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
-        </div>
-        <div>
-          <h3>Free shipping</h3>
-          <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
-        </div>
-      </section>
-      <section>
-        <h3>How it works</h3>
-        <div>
-          <span>01</span>
-          <h4>Pick your coffee</h4>
-          <p>
-            Select from our evolving range of artisan coffees. Our beans are ethically
-            sourced and we pay fair prices for them. There are new coffees in all profiles
-            every month for you to try out.
-          </p>
-        </div>
-        <div>
-          <span>02</span>
-          <h3>Choose the frequency</h3>
-          <p>
-            Customize your order frequency, quantity, even your roast style and grind type.
-            Pause, skip or cancel your subscription with no commitment through our online portal.
-          </p>
-        </div>
-        <div>
-          <span>03</span>
-          <h4>Receive and enjoy!</h4>
-          <p>
-            We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
-            world-class coffees curated to provide a distinct tasting experience.
-          </p>
-        </div>
-        <button type="button">Create your plan</button>
       </section>
     </main>
     <%- include('./layout/footer.ejs'); -%>

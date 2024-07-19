@@ -1,0 +1,53 @@
+section {
+  margin-bottom: 168px;
+}
+
+.section-hero h1 {
+  font-size: 40px;
+}
+
+.section-commitment {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+.section-commitment img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.section-quality {
+  background-color: var(--dark-grey-blue);
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.section-quality-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 125px;
+}
+
+.section-quality-content figure {
+  position: relative;
+  top: -88px;
+}
+
+.section-quality-content img {
+  border-radius: 10px;
+}
+
+.section-quality-text {
+  width: 48%;
+  margin-top: 88px;
+}
+
+.section-headquarters-cards {
+  display: flex;
+}
+
+.headquarter-card {
+  padding-right: 95px;
+}

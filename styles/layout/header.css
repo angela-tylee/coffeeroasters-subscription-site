@@ -1,5 +1,15 @@
-header, ul {
+header, 
+header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 32px;
+}
+
+header {
+  padding-block: 44px;
+}
+
+nav {
+  text-transform: uppercase;
 }
